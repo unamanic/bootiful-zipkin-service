@@ -1,0 +1,7 @@
+applications:
+- name: zipkin-service
+  memory: 512M
+  random-route: false
+  path: target/zipkin-service-0.0.1-SNAPSHOT.jar
+  services:
+  - eureka-service
